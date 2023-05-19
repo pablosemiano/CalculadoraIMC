@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:text="Seu IMC é:"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/purple_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textView_result"
+        tools:text="27.102041"
+        android:textSize="60sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="30dp" />
+
+    <TextView
+        android:id="@+id/textView_classificacao"
+        tools:text="Classificação:  Normal"
+        android:textSize="24sp"
+        android:textColor="@color/purple_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_margin="8dp" />
+    
+    <TextView
+        android:text="VEJA ABAIXO A TABELA IMC:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:text="Menor que 18,5 = abaixo do peso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp" />
+
+    <TextView
+        android:text="Entre 18,5 e 24,9 = normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp" />
+
+    <TextView
+        android:text="Entre 25,0 e 29,9 = sobrepeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp" />
+
+    <TextView
+        android:text="Entre 30,0 e 39,0 = obesidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp" />
+
+    <TextView
+        android:text="Maior que 40,0 = obesidade grave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp" />
+
+
+</LinearLayout>
